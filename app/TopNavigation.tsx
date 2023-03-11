@@ -1,5 +1,5 @@
 'use client'
-import {BsYoutube,BsMicFill,BsBell,BsCameraVideo} from 'react-icons/Bs';
+import { BsYoutube, BsMicFill, BsBell, BsCameraVideo } from "react-icons/bs";
 import { HiOutlineMenu } from 'react-icons/hi';
 import { BiSearch } from 'react-icons/bi';
 

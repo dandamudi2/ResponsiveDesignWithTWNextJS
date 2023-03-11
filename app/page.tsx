@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import { BsDot, BsThreeDotsVertical } from 'react-icons/Bs';
+import { BsDot, BsThreeDotsVertical } from "react-icons/bs";
 import { feedVideos } from "./util/data"
 
 

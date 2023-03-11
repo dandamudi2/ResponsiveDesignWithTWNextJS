@@ -1,13 +1,14 @@
 "use client"
+
+import { usePathname, useRouter } from "next/navigation";
 import { IconType } from "react-icons";
+import { AiOutlineYoutube } from "react-icons/ai";
+import { BiPlayCircle } from "react-icons/bi";
+import { BsCollectionPlay } from "react-icons/bs";
 import { HiHome } from "react-icons/hi";
-import { TfiYoutube } from "react-icons/Tfi";
-import { BsCollectionPlay } from "react-icons/Bs";
-import { AiOutlineYoutube } from "react-icons/Ai";
-import { SiYoutubemusic } from "react-icons/Si";
+import { TfiYoutube } from "react-icons/tfi";
 
 
-import { usePathname, useRouter} from 'next/navigation';
 
 interface MenuItem{
     icon: IconType;
