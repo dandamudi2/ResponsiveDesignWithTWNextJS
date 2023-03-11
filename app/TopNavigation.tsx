@@ -1,8 +1,8 @@
 'use client'
-import {BsYoutube,BsBell,BsCameraVideo} from 'react-icons/bs';
-import { HiOutlineMenu } from 'react-icons/Hi';
+import {BsYoutube,BsMicFill,BsBell,BsCameraVideo} from 'react-icons/Bs';
+import { HiOutlineMenu } from 'react-icons/hi';
 import { BiSearch } from 'react-icons/bi';
-import { BsMicFill } from 'react-icons/bs';
+
 import Image from 'next/image';
 import { useState } from 'react';
 
