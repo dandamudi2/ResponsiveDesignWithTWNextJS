@@ -1,4 +1,6 @@
 import './globals.css'
+import SideNavigation from './SiteNavigation'
+import TopNavigation from './TopNavigation'
 
 export default function RootLayout({
   children,
@@ -7,12 +9,15 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/*
-        <head /> will contain the components returned by the nearest parent
-        head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
-      */}
-      <head />
-      <body>{children}</body>
+      <body className='bg-zinc-900 text-zinc-200'>
+        <div  className='flex flex-col   h-screen'>
+         <TopNavigation />
+        <div className='flex   flex-1'>
+          <SideNavigation />
+             {children}
+        </div>
+        </div>
+        </body>
     </html>
   )
 }
