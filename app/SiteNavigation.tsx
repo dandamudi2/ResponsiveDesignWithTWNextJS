@@ -7,6 +7,8 @@ import { BiPlayCircle } from "react-icons/bi";
 import { BsCollectionPlay } from "react-icons/bs";
 import { HiHome } from "react-icons/hi";
 import { TfiYoutube } from "react-icons/tfi";
+import { SiYoutubemusic } from "react-icons/si";
+
 
 
 
