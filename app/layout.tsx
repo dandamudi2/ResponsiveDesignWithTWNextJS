@@ -12,7 +12,7 @@ export default function RootLayout({
       <body className='bg-zinc-900 text-zinc-200'>
         <div  className='flex flex-col   h-screen'>
          <TopNavigation />
-        <div className='hidden md:flex   flex-1 '>
+        <div className='flex   flex-1 '>
           <SideNavigation />
              {children}
         </div>
