@@ -10,7 +10,7 @@ export default function Home() {
     <div className='flex flex-col px-8 py-4 md:flex-row flex-wrap gap-10 lg:gap-4 
      flex-1'>
           {feedVideos.map(video=>(
-            <div key={video.title} className="flex flex-col gap-3    w-[360px]">
+            <div key={video.title} className="flex flex-col gap-3    w-[300px] md:w-[360px] ">
               <div className=''>
               <img  src={video.thumbnailUrl} 
               height={180} 
